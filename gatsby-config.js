@@ -20,6 +20,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "automateyouradmin",
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/assets`,
